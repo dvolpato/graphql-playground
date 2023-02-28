@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development ts-node-dev --exit-child --respawn src/main.ts",
+    "codegen": "graphql-codegen --config server-codegen.ts",
     "start": "ts-node src/main.ts"
   },
   "keywords": [],
